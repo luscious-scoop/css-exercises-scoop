@@ -1,5 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 img {
@@ -8,6 +13,10 @@ img {
 }
 
 .title {
+  margin-top: 8px;
+  margin-bottom: 32px;
+  text-align: center;
+
   font-size: 36px;
   font-weight: 900;
 }
@@ -23,4 +32,23 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+.container {
+  justify-content: center;
+  /*border: 2px solid red;*/
+  display: flex;
+  gap: 52px;
+}
+
+.items {
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  /*border: 2px solid green;*/
+}
+.text {
+  text-align: center;
 }

@@ -78,6 +78,7 @@ button.cancel {
   /*  border: 3px solid yellow; */
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
 }
 .top {
   /*  border: 2px solid skyblue; */
@@ -86,7 +87,6 @@ button.cancel {
 }
 
 .header {
-  padding: 8px;
   font-size: 18px;
   /* border: 2px solid hotpink; */
   flex: 1;
@@ -98,5 +98,5 @@ button.cancel {
   border: 2px solid green;
 } */
 .text {
-  padding: 8px;
+  border: 2px solid hotpink;
 }

@@ -18,9 +18,10 @@ body {
 
 .modal {
   display: flex;
-  gap: 10px;
+  gap: 12px;
 
   padding: 16px;
+  gap: 16px;
   background: white;
   width: 480px;
   border-radius: 10px;
@@ -75,28 +76,23 @@ button.cancel {
 
 .container {
   flex: 1;
-  /*  border: 3px solid yellow; */
+  /* border: 3px solid yellow; */
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  row-gap: 12px;
 }
 .top {
-  /*  border: 2px solid skyblue; */
   display: flex;
   align-items: center;
 }
 
 .header {
+  padding: 2px;
   font-size: 18px;
-  /* border: 2px solid hotpink; */
+  /*  border: 2px solid hotpink; */
   flex: 1;
   font-weight: bold;
   align-self: flex-start;
 }
-
-/* .buttons {
-  border: 2px solid green;
-} */
 .text {
-  border: 2px solid hotpink;
 }

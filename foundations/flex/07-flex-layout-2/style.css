@@ -52,11 +52,8 @@ li {
 }
 
 .middle {
-  flex: 1;
-}
-
-.middle {
   display: flex;
+  flex: 1;
 }
 
 .footer {

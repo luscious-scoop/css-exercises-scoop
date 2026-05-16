@@ -79,6 +79,12 @@
 .card {
 	height: 200px;
 }
+.title {
+	margin-top: 5px;
+}
+.card p:not(.title) {
+	padding: 10px 15px;
+}
 
 .article p {
 	font-size: 18px;
@@ -90,7 +96,7 @@
 .article .card {
 	background-color: #ffffff;
 	color: black;
-	text-align: center;
+	/* text-align: center; */
 }
 
 .card p {
